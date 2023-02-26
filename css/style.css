@@ -32,8 +32,22 @@ ul {
 }
 /* Navbar */
 
+.navbarveille {
+	background-color: #0B0A2C;
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font-weight: bold;
+	border-bottom: 1px solid white;
+	text-align: center;
+	margin: 0 6px;
+	margin: 0 auto;
+}
+.veilletexte {
+	background-color: #16CDF6;
+	font-weight: bold;
+}
 .navbar {
-	background-color: rgb(40, 14, 93);
+	background-color: #7142DD;
 	letter-spacing: 2px;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -56,8 +70,10 @@ ul {
 #Projets {
 	background-color: rgba(34, 82, 114, 0.477);
 }
+/*Veille technolo
 #Veilletechnologique {
-	background-color: rgb(36, 30, 144);
+	background-image: url("");
+	
 }
 .card-img-bottom {
 	margin: auto;
@@ -67,16 +83,38 @@ ul {
 
 #about {
 	background-color: #1c355b;
-	background-image: url("https://images6.alphacoders.com/456/456498.jpg");
-	background-image: blur(4px);
+	background-image: url("https://images8.alphacoders.com/123/1239331.jpg");
+	filter: blur(0px);
+}
+
+.profile-picture{
+	filter: blur(15px);
+}
+
+.background-image {
+	backdrop-filter: blur(10px);
+}
+.TITRE {
+	font-weight: bold;
+}
+.dev {
+	border-radius: 10px;
+}
+#veilleimage {
+	background-color: #184f95;
+	background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p3/4627583-hud-metaverse-by-virtual-data-with-artificial-intelligence-analyst-of-future-technology-vectoriel.jpg");
 }
 .profile-picture {
 	text-align: center;
 	margin: 0px auto 30px;
 }
-
-#veilletechno{
-	background-color: #371f7f;
+#container-fluid {
+	background-image: url("https://images8.alphacoders.com/123/1239331.jpg");
+	background-image: blur(4px);
+}
+#veilletechno {
+	background-image: url("https://images8.alphacoders.com/123/1239331.jpg");
+	background-image: blur(4px);
 }
 img {
 	max-width: 100px;
@@ -112,6 +150,10 @@ img {
 	background: white;
 	color: #d82c2e;
 }
+.btn btn primary {
+	background-color: rgb(40, 14, 93);
+	;
+}
 section .heading h2 {
 	text-transform: uppercase;
 }
@@ -126,12 +168,12 @@ section .heading h2 {
 	margin-bottom: 0px;
 }
 .progress-bar {
-	background-color: rgb(46, 39, 124);
+	background-color: #7142DD;
 }
 /* EXPERIENCE*/
 
 #experience {
-	background-color: rgb(46, 39, 124);
+	background-color: #7142DD;
 }
 #experience .heading h2 {
 	color: white;
@@ -259,7 +301,7 @@ section .heading h2 {
 /*footer*/
 
 footer {
-	background-color: rgb(40, 14, 93);
+	background-color: #7142DD;
 	padding: 20px 0 40px;
 }
 .m {

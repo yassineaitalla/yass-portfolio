@@ -1,80 +1,309 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>PORTFOLIO YASSINE</title>
-	<meta charset="utf-8">
-	<meta content="width=device-width, initial-scale=1" name="viewport">
-	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js">
-	</script>
-	<link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
-	<link href="css/style.css" rel="stylesheet">
-	<script src="js/script.js">
-	</script>
-</head>
-<body class="body" data-bs-spy="scroll" data-bs-target="#mynavbar">
-	<nav class="navbarveille" id="mynavbar">
-		<div class="navbar-veille">
-			<a class="nav-link" href="index.html">Accueil</a> <a class="nav-link" href="VeilleTechnologique.html">Veille technologique</a>
-		</div>
-	</nav>
-	<section class="container-fluid" id="veilleimage">
-		<div class="col-8 col-lg-4 profile-picture"><img class="rounded-circle" src=""></div><br>
-		<div class="heading">
-			<h1 class="h">Inteligence Artificielle</h1>
-			<h3 class="h9"></h3><br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<br>
-			<a class=" button1" href="https://www.netapp.com/fr/artificial-intelligence/what-is-artificial-intelligence/#:~:text=L'intelligence%20artificielle%20(IA),agir%20comme%20des%20%C3%AAtres%20humains">Forum IA</a>
-		</div><br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-		<br>
-	</section>
-	<div style="text-align:center;">
-		<img alt="Image 1" src="images/dev.jpg" style="width: 100%;">
-		<p class="TITRE">1. Le développement de l'IA :</p>
-		<h1 class="dev">Le développement de l'IA : L'IA est en constante évolution et les chercheurs travaillent actuellement à améliorer les algorithmes, les techniques d'apprentissage automatique et les modèles de traitement du langage naturel. Les experts cherchent à améliorer l'exactitude et la capacité des modèles pour résoudre des problèmes de plus en plus complexes.</h1>
+   <head>
+      <title>PORTFOLIO YASSINE</title>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1" name="viewport">
+      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+      <link href='http://fonts.googleapis.com/css?family=Lato&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+      <link href="css/style.css" rel="stylesheet">
+      <script src="js/script.js"></script>
+   </head>
+   <body class="body" data-bs-spy="scroll" data-bs-target="#mynavbar">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="mynavbar">
+         <div class="container-fluid">
+            
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+               <ul class="navbar-nav">
+                  <li class="nav-item">
+					 <a class="navbar-brand" href="index.html">Accueil</a>
+                   
+                  </li>
+               </ul>
+            </div>
+         </div>
+      </nav>
+      <section class="container-fluid" style="background-image: url('https://www.euractiv.fr/wp-content/uploads/sites/3/2022/09/shutterstock_2070783284.jpg	');">
+		<!-- contenu de la section -->
+	  
+         <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+               
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+               <div class="card">
+                  <div class="card-body">
+                     <h1 class="h1">Veille Technologique</h1>
+                     <h3 class="h3"></h3>
+                    <!-- <a class="btn btn-primary" href="https://www.netapp.com/fr/artificial-intelligence/what-is-artificial-intelligence/#:~:text=L'intelligence%20artificielle%20(IA),agir%20comme%20des%20%C3%AAtres%20humains">Forum IA</a> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+	  <style>
+		.card-container {
+		  display: flex;
+		  flex-wrap: wrap;
+		  justify-content: center;
+		  align-items: stretch;
+		}
+		
+		.card {
+		  flex: 1 1 350px;
+		  margin: 20px;
+		  background-color: #f1f8ff;
+		  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+		}
+		
+		.card:nth-child(odd) {
+		  flex-direction: row;
+		}
+		
+		.card:nth-child(even) {
+		  flex-direction: row-reverse;
+		}
+		
+		.card-img {
+		  flex: 1 1 50%;
+		  height: 100%;
+		}
+		
+		.card-content {
+		  flex: 1 1 50%;
+		  padding: 20px;
+		}
+		
+		.card-title {
+		  font-size: 24px;
+		  margin-bottom: 10px;
+		}
+		
+		.card-text {
+		  font-size: 16px;
+		  line-height: 1.5;
+		}
+		</style>
+
+	<div class="card">
+	
+	  <h5 class="card-title" style="text-align: center;">Qu’est-ce que la veille technologique ? <br> <br>
+
+		La veille en général se définit comme l’ensemble des actions de recherche, de traitement et de diffusion de l’information utile sur un sujet donné, en vue de son exploitation. On distingue quatre types de veille, la veille commerciale, la veille concurrentielle, la veille environnementale et la veille technologique. La veille technologique (ou veille scientifique et technique) consiste à se tenir informé de façon coordonnée et dans le temps, sur les dernières innovations et technologies disponibles sur le marché et sur leur mise à disposition commerciale. Les avantages d’effectuer une veille technologique sont variés, tant au niveau de l’entreprise qu’au niveau personnel : <br>
+		
+			* Anticiper la menace et trouver des solutions en amont<br>
+			* Être à l’écoute de son marché en permanence<br>
+			* Adapter sa stratégie des concurrents et saisir des opportunités<br>
+			* Découvrir de nouvelles technologies et renforcer ses connaissances<br>
+			* 	Optimiser sa carrière
+		</h5>
+	  
 	</div>
-	<div style="text-align:center;">
-		<img alt="Image 2" src="images/IA2.jpg" style="width:100%;">
-		<p class="TITRE">2. Les outils d'IA pour le développement de logiciels :</p>
-		<h1 class="dev">Les outils d'IA pour le développement de logiciels : Les entreprises commencent à utiliser des outils d'IA pour améliorer le processus de développement de logiciels. Les outils basés sur l'IA peuvent aider les développeurs à détecter les erreurs de codage, à accélérer la détection des bugs et à automatiser certaines tâches.</h1>
-	</div>
-	<div style="text-align:center;">
-		<img alt="Image 4" src="images/IA5.jpg" style="width:50%;">
-		<p class="TITRE">3. L'IA et la transformation numérique :</p>
-		<h1 class="dev">L'IA est de plus en plus considérée comme un élément clé de la transformation numérique des entreprises. Les entreprises peuvent utiliser l'IA pour améliorer l'expérience client, optimiser les processus métier et améliorer la prise de décision.</h1>
-	</div>
-	<div style="text-align:center;">
-		<img alt="Image 5" src="images/IA4.png" style="width:50%;">
-		<p class="TITRE">4. L'IA et les chatbots :</p>
-		<h1 class="dev">Les chatbots sont des interfaces conversationnelles qui permettent aux entreprises d'automatiser les interactions avec leurs clients. Ils peuvent être utilisés pour répondre aux questions fréquentes, fournir des informations sur les produits et services, ou encore pour aider à résoudre des problèmes techniques.<br>
-		<br>
-		Les chatbots sont de plus en plus sophistiqués grâce à l'utilisation de l'IA, ce qui leur permet de comprendre le langage naturel et de répondre de manière plus précise aux demandes des clients.<br>
-		<br>
-		Les chatbots peuvent également être intégrés à d'autres technologies, telles que les applications mobiles ou les plates-formes de médias sociaux, pour fournir une expérience client cohérente. L'un des principaux avantages des chatbots est leur disponibilité 24 heures sur 24, 7 jours sur 7, ce qui permet aux clients d'obtenir rapidement des réponses à leurs questions à tout moment.<br>
-		<br>
-		En outre, les chatbots peuvent gérer un grand nombre de requêtes simultanément, ce qui permet aux entreprises de réduire les temps d'attente pour leurs clients. Cependant, les chatbots ne peuvent pas toujours répondre à toutes les questions ou résoudre tous les problèmes. Il est donc important pour les entreprises de s'assurer que les clients ont accès à un support humain en cas de besoin.<br>
-		En somme, les chatbots sont une technologie de plus en plus populaire dans le domaine de l'IA et offrent de nombreux avantages pour les entreprises cherchant à améliorer l'expérience client et à automatiser les interactions.</h1>
-	</div>
-	<div style="text-align:center;">
-		<img alt="Image 4" src="images/IA6.jpg" style="width:50%;">
-		<p class="TITRE">5. Conclusion</p>
-		<h1 class="dev">Pour conclure, l'IA est un domaine en constante évolution, il est donc important de rester à jour sur les dernières avancées pour rester compétitif.</h1>
-	</div>
-</body>
-</html>
+
+	<div class="card">
+	
+		<h5 class="card-title" style="text-align: center;">	Les sources pouvant être utilisées <br> <br>
+  
+		
+
+			La curation de contenu est une pratique qui consiste à sélectionner, éditer et partager les contenus les plus pertinents du Web sur un sujet donné. La curation rassemble différents contenus, les choisis, les tris, et en présente tout ou partie. On trouve par exemple :
+			
+				<br>Les sites d’actualités (par exemple : Le Monde informatique, …)<br>
+				Les bases de dépôts de brevets gratuites: Espacenet, Patentscope, …)<br>
+				Les sites spécialisés<br>
+			
+			Les sources peuvent être formelles (documents) ou informelles (observations), internes à l’entreprise ou externes. Elles peuvent aussi être ouvertes (informations facilement accessibles) ou fermées (payantes, qui nécessitent un travail d’investigation, …) Les types de sources les plus utilisés sont :
+			<br>
+				Feedly : le plus connu.<br>
+				Google Alert : le plus simple.<br>
+				Scoop.it : le mieux outillé<br>
+				Pearltrees : le plus pédagogique.<br>
+				Paper.li : le plus pratique.
+			
+		  </h5>
+		
+	  </div>
+
+	  <div class="card">
+	
+		<h5 class="card-title" style="text-align: center;">	 Le domaine technologique sur lequel je suis en train de me tenir informé <br> <br>
+  
+		
+
+			J’ai choisi de me tenir informé sur comment l'Intelligence Artificielle impacte-t-elle les secteurs industriels traditionnels et influence-t-elle les métiers de demain, en particulier celui des développeurs, en les aidant à améliorer leur travail.Ce thème est très intéressant car l'IA est en train de révolutionner de nombreux secteurs d'activité, tels que la santé, l'éducation, la finance, les transports, le commerce, etc. En surveillant les derniers développements et tendances de l'IA, je pourrai mieux comprendre comment elle transforme les compétences requises pour certains emplois et crée de nouveaux métiers
+		  </h5>
+		
+	  </div>
+
+	
+		
+		<section class="container" id="dev">
+
+		  <div class="card-container">
+			<div class="card">
+			  <img class="card-img" src="https://yop.l-frii.com/wp-content/uploads/2023/03/Sans-titre-5-1-1024x683.jpg" alt="Image 1">
+			  <div class="card-content" style="background-color: #b3d9ff">
+				<h5 class="card-title">Les outils pour ma veille technologique :</h5>
+				<p class="card-text">
+					Feedly.com est un service qui me permet d'accéder facilement aux informations des principaux journaux, blogs et chaînes YouTube sur une seule plateforme. <br>En utilisant des mots-clés spécifiques tels que la robotique médicale, l'automatisation médicale, l'intelligence artificielle médicale, la santé connectée, etc., je peux recevoir des alertes sur les sujets qui m'intéressent. <br>L'inscription à Feedly est gratuite via mon compte Google. Google Alertes est également un service gratuit qui m'informe par e-mail des nouveautés publiées en ligne qui concernent les mots-clés que j'ai choisis.
+				</p>
+			  </div>
+			</div>
+
+		
+		
+			
+		
+			<div class="card">
+				<img class="card-img" src="https://www.emlv.fr/wordpress/wp-content/uploads/2019/08/veille_strategique-1280x720.jpg" alt="Image 3" style="width: 80%;">
+				<div class="card-content" style="background-color: #b3d9ff">
+				  <h5 class="card-title">Comment l'IA m'aide en tant que développeur :</h5>
+				  <p class="card-text">L'IA peut être utilisée pour améliorer les processus de développement, tels que l'identification des bogues, l'optimisation des performances et la rédaction de code. Elle peut également être utilisée pour automatiser des tâches répétitives, permettant aux développeurs de se concentrer sur des tâches plus complexes.</p>
+				</div>
+			</div>
+		
+			</section>
+		
+			<div class="card">
+	
+				<h5 class="card-title" style="text-align: center;">	Mes articles : <br> <br>
+		  
+				
+		
+					Le tri des informations est une étape cruciale en veille technologique, car il y a souvent une quantité importante de données à traiter. Étant donné les multiples utilisations de l'intelligence artificielle, de nombreux articles ont été publiés sur ce sujet. Pour faciliter la sélection d'informations pertinentes, j'ai choisi de me concentrer sur des articles qui présentent une vue d'ensemble de ce domaine.
+				
+			  </div>
+			  <section>
+				<div class="d-flex justify-content-center">
+					<div class="row">
+					  <div class="col-md-3">
+						<div class="card h-100">
+						  <img class="card-img-top" src="https://www.aezion.com/wp-content/uploads/2020/06/AI-Bots-1000x675-1.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<p class="card-text">En quoi l'utilisation de chatbots peut-elle contribuer à améliorer la satisfaction des clients ?</p>
+							<a>17 mars 2023</a><br>
+							<a href="https://www.processmaker.com/fr/blog/how-chatbots-improve-customer-experience/" class="btn btn-primary">Lire l'article</a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-3">
+						<div class="card h-100">
+						  <img class="card-img-top" src="https://itsocial.fr/wp-content/uploads/2020/03/iStock-981506980.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<p class="card-text">Comment l'intégration d'un Chatbot peut-elle bénéficier à votre e-commerce ? </p>
+							<a>7 Février 2023</a> <br> 
+							<a href="https://www.cm.com/fr-fr/blog/ecommerce-chatbot-integrations/" class="btn btn-primary">Lire l'article</a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-3">
+						<div class="card h-100">
+						  <img class="card-img-top" src="https://www.tresfacile.net/wp-content/uploads/2023/03/AI-ML.png" alt="Card image cap">
+						  <div class="card-body">
+							<p class="card-text">Quel est l'impact de l'IA sur le métier du développeur ?</p>
+							<br><a>17 mars 2023</a><br>
+							<a href="https://www.tresfacile.net/impact-de-lia-sur-le-metier-du-developpeur/" class="btn btn-primary">Lire l'article</a>
+						  </div>
+						</div>
+					  </div>
+					  <div class="col-md-3">
+						<div class="card h-100">
+						  <img class="card-img-top" src="https://res.cloudinary.com/generation/image/upload/w_1150,q_auto,f_auto/france/2020/10/photos-hobby-jIBMSMs4_kA-unsplash.jpg" alt="Card image cap">
+						  <div class="card-body">
+							<p class="card-text">IA, chatbots : un futur 100% digital en relation client ?</p>
+							<br><a> 22 septembre 2021</a><br>
+							<a href="https://www.relationclientmag.fr/Thematique/techno-ux-1256/solutions-2160/Breves/Avec-bots-nouvelle-generation-dynamise-relation-client-363972.htm" class="btn btn-primary">Lire l'article</a>
+						  </div>
+						</div>
+					  </div>
+					</div>
+				  </div>
+				  
+				  
+			  </section>
+
+			  <div class="card">
+	
+				<h5 class="card-title" style="text-align: center;">	En quoi l'IA est utilisée dans différents domaines ? <br> <br>
+		  
+				
+		
+					En lisant ces articles, j'ai compris comment les chatbots et l'intelligence artificielle peuvent améliorer l'expérience client, ainsi que les avantages et les défis liés à leur utilisation.
+				
+			  </div>
+
+			  <div class="card">
+	
+				<h5 class="card-title" style="text-align: center;">	
+					Améliorer l'expérience client <br> <br>
+		  
+				
+					
+
+					Les chatbots et l'IA peuvent être utilisés pour améliorer l'expérience client de plusieurs manières, notamment en offrant un support client 24/7, en répondant aux questions des clients en temps réel, en personnalisant l'expérience client en fonction des préférences des clients, en améliorant la vitesse et la qualité des réponses fournies aux clients, en fournissant des recommandations en fonction des préférences des clients, en automatisant des tâches répétitives et en offrant des options de libre-service pour les clients.
+					<br>Les avantages:<br> <br>
+					
+						* Disponibilité 24/7<br>
+						* Évolutivité<br>
+						* Personnalisation<br>
+						* Analyse des données<br><br>
+					
+					Les inconvénients:<br> <br>
+					
+						* Besoin de formation<br>
+						* Risque de mauvaise expérience client<br>
+						* Coûts<br>
+						* Vie privée<br>
+				
+			  </div>
+
+			  <div class="card">
+	
+				<h5 class="card-title" style="text-align: center;">	
+					Voici des exemples d'entreprises qui ont mis en place avec succès des chatbots et de l'IA pour améliorer leur relation client : <br> <br>
+		  
+				
+					H&M : La célèbre marque de vêtements a développé un chatbot sur Kik pour aider les clients à découvrir les tendances actuelles de la mode et leur donner des conseils vestimentaires.<br>
+Allstate : Cette compagnie d'assurance a lancé un chatbot nommé "Allstate Business Insurance Expert" pour aider les petites entreprises à trouver et souscrire une assurance adaptée à leurs besoins.<br>
+Lyft : Le service de covoiturage Lyft a développé un chatbot pour permettre à ses utilisateurs de commander une course via Facebook Messenger, sans avoir besoin d'ouvrir l'application Lyft.<br>
+Amtrak : La compagnie ferroviaire américaine a créé un chatbot sur Facebook Messenger pour aider les clients à trouver et réserver des billets de train, ainsi que pour répondre à leurs questions.<br>
+Mastercard : Le géant des services financiers a lancé un chatbot sur Facebook Messenger pour aider les consommateurs à gérer leurs finances, en leur fournissant des informations sur leurs transactions et des conseils sur la gestion de leur budget.<br>
+
+N26 : La banque en ligne allemande utilise des chatbots pour aider les clients à gérer leur compte, à effectuer des transactions et à obtenir des informations sur les produits bancaires.
+				
+			  </div>
+
+
+			
+			  <div class="card">
+	
+				<h5 class="card-title" style="text-align: center;">	
+					
+					L'impact de l'intelligence artificielle sur la société <br>
+
+					Les chatbots et l'IA peuvent collecter des données personnelles sur les clients, ce qui soulève des préoccupations en matière de confidentialité et de protection des données.<br> Il est donc crucial de les utiliser de manière transparente et éthique en informant les clients de la collecte de données et en leur permettant de contrôler l'utilisation de leurs informations personnelles.<br> Les chatbots et l'IA ne doivent pas être utilisés pour tromper ou manipuler les clients, mais plutôt pour les aider à prendre des décisions éclairées.<br>
+
+Cependant, il est important de reconnaître que les chatbots et l'IA ne peuvent pas remplacer complètement les interactions humaines et que certains clients préfèrent une expérience plus personnalisée.<br> Les entreprises doivent donc trouver un équilibre entre l'utilisation de ces technologies pour améliorer l'expérience client et la nécessité d'offrir une interaction personnalisée et humaine.<br>
+
+L'utilisation de chatbots et d'IA peut offrir de nombreux avantages pour les entreprises, tels que l'efficacité, la réduction des coûts, la satisfaction client et la collecte de données précises. Cependant, cela nécessite des compétences techniques avancées, une utilisation éthique et transparente, ainsi que des mises à jour régulières. <br>Des entreprises comme Sephora, H&M et Starbucks ont mis en place ces systèmes pour améliorer leur relation client, mais il est crucial de prendre en compte les enjeux éthiques pour assurer une utilisation responsable de ces technologies.
+				
+			  </div>
+
+
+		
+
+		
+			
+
+			  
+
+			  
+			
+
+			 
+
+		    

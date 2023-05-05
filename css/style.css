@@ -70,6 +70,8 @@ ul {
 #Projets {
 	background-color: rgba(34, 82, 114, 0.477);
 }
+
+
 /*Veille technolo
 #Veilletechnologique {
 	background-image: url("");
@@ -82,10 +84,22 @@ ul {
 /*about*/
 
 #about {
-	background-color: #1c355b;
+	position: relative;
+	background-color: transparent;
+  }
+  
+#about::before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
 	background-image: url("https://images8.alphacoders.com/123/1239331.jpg");
-	filter: blur(0px);
-}
+	background-size: cover;
+	filter: blur(3px);
+	z-index: -1;
+  }
 
 .profile-picture{
 	filter: blur(15px);
@@ -102,7 +116,7 @@ ul {
 }
 #veilleimage {
 	background-color: #184f95;
-	background-image: url("https://static.vecteezy.com/ti/vecteur-libre/p3/4627583-hud-metaverse-by-virtual-data-with-artificial-intelligence-analyst-of-future-technology-vectoriel.jpg");
+	background-image: url("");
 }
 .profile-picture {
 	text-align: center;
